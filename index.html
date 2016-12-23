@@ -32,32 +32,42 @@
 	<div class="container">
 		<div class="row">
 			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">AdmitKard</a>
-				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Home</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<strong>John Appleseed</strong>
-							<span class="glyphicon glyphicon-chevron-down"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-	        				<li><a href="#">Another action</a></li>
-	        				<li><a href="#">Something else here</a></li>
-	        				<li role="separator" class="divider"></li>
-				            <li><a href="#">Separated link</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">One more separated link</a></li>
+				<div class="container-fluid">
+					<div class="navbar-header">
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				        	<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				    	</button>
+						<a class="navbar-brand" href="#">Admit Kard</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Home</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<strong>John Appleseed</strong>
+									<span class="glyphicon glyphicon-chevron-down"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+			        				<li><a href="#">Another action</a></li>
+			        				<li><a href="#">Something else here</a></li>
+			        				<li role="separator" class="divider"></li>
+						            <li><a href="#">Separated link</a></li>
+						            <li role="separator" class="divider"></li>
+						            <li><a href="#">One more separated link</a></li>
+								</ul>
+							</li>
 						</ul>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</nav>
 		</div>
 		<div class="row">
@@ -122,8 +132,14 @@
 			<div id="container-courses">
 				<div class="large-plain-text">Courses and Departments</div>
 				<br />
-				<div class="btn-group" role="group" aria-label="...">
+				<div class="btn-group hidden-xs" role="group" aria-label="...">
 		  			<button type="button" class="btn btn-default">Under Graduate</button>
+		  			<button type="button" class="btn btn-primary">Post Graduate</button>
+		  			<button type="button" class="btn btn-default">P.H.D</button>
+				</div>
+				
+				<div class="btn-group-vertical visible-xs">
+				    <button type="button" class="btn btn-default">Under Graduate</button>
 		  			<button type="button" class="btn btn-primary">Post Graduate</button>
 		  			<button type="button" class="btn btn-default">P.H.D</button>
 				</div>
